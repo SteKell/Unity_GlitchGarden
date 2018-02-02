@@ -11,6 +11,8 @@ GameObject:
   - 95: {fileID: 9542650}
   - 114: {fileID: 11424376}
   - 61: {fileID: 6148872}
+  - 114: {fileID: 11497362}
+  - 50: {fileID: 5044242}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -53,12 +55,27 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 4, z: 0}
+  m_LocalPosition: {x: 7, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 409714}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5044242
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109418}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!61 &6148872
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -100,7 +117,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251e5f8a015b96446bd6bbd39639bc55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: .699999988
+--- !u!114 &11497362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd095a34fa550140a2eec941e6b53ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21237516
 SpriteRenderer:
   m_ObjectHideFlags: 1

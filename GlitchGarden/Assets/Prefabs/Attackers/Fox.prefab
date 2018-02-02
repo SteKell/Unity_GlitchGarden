@@ -11,6 +11,8 @@ GameObject:
   - 95: {fileID: 9516918}
   - 114: {fileID: 11475330}
   - 61: {fileID: 6150780}
+  - 50: {fileID: 5035160}
+  - 114: {fileID: 11492594}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -59,6 +61,21 @@ Transform:
   - {fileID: 451632}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5035160
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169288}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!61 &6150780
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -100,7 +117,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251e5f8a015b96446bd6bbd39639bc55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: .379999995
+--- !u!114 &11492594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd23f90da0ecb7540928a8c745d37f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21214282
 SpriteRenderer:
   m_ObjectHideFlags: 1
