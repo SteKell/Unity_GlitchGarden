@@ -34,7 +34,7 @@ public class Fox : MonoBehaviour {
         else
         {
             anim.SetBool("isAttacking", true);
-            //attacker.Attack(obj);
+            attacker.Attack(obj);
         }
     }
 }
