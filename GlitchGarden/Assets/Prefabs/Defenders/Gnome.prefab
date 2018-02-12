@@ -133,6 +133,7 @@ MonoBehaviour:
   projectile: {fileID: 163060, guid: 04c50615fc7f5c2458d9d43cd9af5d79, type: 2}
   projectileParent: {fileID: 173782, guid: 3ef9a885a1ee6d14b8515d3b426b4626, type: 2}
   gun: {fileID: 123000}
+  count: 0
 --- !u!114 &11450188
 MonoBehaviour:
   m_ObjectHideFlags: 1

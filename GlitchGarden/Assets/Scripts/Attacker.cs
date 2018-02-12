@@ -22,6 +22,8 @@ public class Attacker : MonoBehaviour {
         {
             anim.SetBool("isAttacking", false);
         }
+
+        print(Button.selectedDefender);
 	
 	}
 
