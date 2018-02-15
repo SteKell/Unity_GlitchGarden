@@ -3,9 +3,19 @@ using System.Collections;
 
 public class Shooter : MonoBehaviour {
 
-    public GameObject projectile, projectileParent, gun;
-    private Animator anim;
-    public int count = 0;
+    public GameObject projectile, gun;
+
+    private GameObject projectileParent;
+
+    private void Start()
+    {
+        projectileParent = GameObject.Find("Projectiles");
+
+        if(!projectileParent)
+        {
+            projectileParent = new GameObject("Projectiles");
+        }
+    }
 
     private void Fire()
     {
