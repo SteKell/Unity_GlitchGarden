@@ -4,8 +4,10 @@ using System.Collections;
 [RequireComponent (typeof(Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
-    private float currentSpeed;
-    private GameObject currentTarget;
+    public float secondsCanAppearAfter; // average number of seconds between attacker appearances
+
+    private float currentSpeed; // the speed that attacker moves
+    private GameObject currentTarget; // defender the attacker is attacking
     private Animator anim;
     
     // Use this for initialization

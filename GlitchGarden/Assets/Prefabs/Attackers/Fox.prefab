@@ -9,9 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 481430}
   - 95: {fileID: 9516918}
-  - 114: {fileID: 11475330}
   - 61: {fileID: 6150780}
   - 50: {fileID: 5035160}
+  - 114: {fileID: 11475330}
   - 114: {fileID: 11492594}
   - 114: {fileID: 11484412}
   m_Layer: 0
@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251e5f8a015b96446bd6bbd39639bc55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondsCanAppearAfter: 7
 --- !u!114 &11484412
 MonoBehaviour:
   m_ObjectHideFlags: 1
