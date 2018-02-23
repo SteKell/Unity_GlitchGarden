@@ -131,9 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 163060, guid: 04c50615fc7f5c2458d9d43cd9af5d79, type: 2}
-  projectileParent: {fileID: 173782, guid: 3ef9a885a1ee6d14b8515d3b426b4626, type: 2}
   gun: {fileID: 123000}
-  count: 0
 --- !u!114 &11450188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -145,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a60c0f75256358a4cbfbaaecd026bec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 70
 --- !u!114 &11450926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -157,6 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ebceadbbc51e5246bdf67d99b67cdfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCost: 30
 --- !u!212 &21282238
 SpriteRenderer:
   m_ObjectHideFlags: 1

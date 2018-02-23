@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ebceadbbc51e5246bdf67d99b67cdfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCost: 50
 --- !u!114 &11470424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -154,7 +155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 191812, guid: 87147c26b06b50249a6a6a30e24a77af, type: 2}
-  projectileParent: {fileID: 173782, guid: 3ef9a885a1ee6d14b8515d3b426b4626, type: 2}
   gun: {fileID: 155000}
 --- !u!212 &21274930
 SpriteRenderer:
